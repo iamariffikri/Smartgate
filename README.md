@@ -1,17 +1,47 @@
 # SmartGate
-[Jomhack 2016](http://www.cyberjayamalaysia.com.my/happenings/2016/08/05/events/jomhack-smart-cities-with-lora) Arduino Leonardo code
+Smart Gate using Plate Recognition and LoRa, 
+[Jomhack 2016](http://www.cyberjayamalaysia.com.my/happenings/2016/08/05/events/jomhack-smart-cities-with-lora)
 
-## Synopsis
+## Architecture
 
-The codes are to be used with Arduino IDE for varios Arduino devices. It is used to open gate using plate number recognition. However it involves an integration with a Raspberry Pi for the processing and image taking. Among the sheilds and sensors that were used :
+![alt text](https://github.com/iamariffikri/Smartgate/blob/master/Architecture.png "Architecture")
 
-- Arduino Lora sheild
-- Light sensor
-- Servo motor
-- Camera module for Raspberry Pi
-- LCD 16x2
-- LED red & green
-- Rotaty Switch
+## Demo
 
-## Board Setup
+https://www.instagram.com/p/BIzTmEuAIR_/
+
+## Hardware
+* [The Things Uno](https://shop.thethingsnetwork.com/index.php/product/the-things-uno/)
+* Light Sensor (or any other sensor; to detect incoming car)
+* Servo Motor
+* LCD 16x2
+* LED red & green
+* Rotaty Switch
+* Raspberry Pi 3
+* Camera module
+* 16GB SD card
+
+## Installation
+
+### Board Setup
 ![alt text](https://github.com/iamariffikri/Smartgate/blob/master/BoardSetup.jpeg "Board Setup")
+
+### Arduino
+	
+1. Upload [the code](https://github.com/iamariffikri/Smartgate/blob/master/arduino/Smartgate.ino)
+2. Update the `devAddr`, `nwkSKey` & `appSKey` gotten from TTN dashboard
+
+### Raspberry Pi
+
+1. [Install OpenALPR](https://gist.github.com/amstanley/9da7febc9a3e3c2228ee)
+2. [Install NodeJS & NPM ](http://raspberrypi.stackexchange.com/a/37976)
+3. Upload [the code](https://github.com/iamariffikri/Smartgate/blob/master/rpi) and run `npm install && node run.js`
+
+### Backend
+
+1. Copy [this code](https://github.com/iamariffikri/Smartgate/blob/master/backend) to a server or laptop
+2.  Update the `appEUI`, `accessKey` & `devEUI` and run `npm install && node ttn.js`
+
+## License
+
+Licensed under the [MIT license](http://opensource.org/licenses/MIT)
