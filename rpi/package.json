@@ -1,0 +1,7 @@
+{
+	"dependencies":
+	{
+		"serialport": "4.0.1",
+		"raspicam": "0.2.13"
+	}
+}
