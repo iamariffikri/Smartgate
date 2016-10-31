@@ -1,10 +1,10 @@
 # SmartGate
-Smart Gate using Plate Recognition and LoRa, 
-[Jomhack 2016](http://www.cyberjayamalaysia.com.my/happenings/2016/08/05/events/jomhack-smart-cities-with-lora)
+SmartGate, an IOT project using [OpenALPR](http://www.openalpr.com) Plate Recognition and LoRa in
+[Jomhack 2016, Cyberview](http://www.cyberjayamalaysia.com.my/happenings/2016/08/05/events/jomhack-smart-cities-with-lora).
 
 ## Architecture
 
-![alt text](https://github.com/iamariffikri/Smartgate/blob/master/Architecture.png "Architecture")
+![alt text](Architecture.png "Architecture")
 
 ## Demo
 
@@ -24,10 +24,10 @@ https://www.instagram.com/p/BIzTmEuAIR_/
 ## Installation
 
 ### Board Setup
-![alt text](https://github.com/iamariffikri/Smartgate/blob/master/BoardSetup.jpeg "Board Setup")
+![alt text](BoardSetup.jpeg "Board Setup")
 
 ### Arduino
-	
+
 1. Upload [the code](https://github.com/iamariffikri/Smartgate/blob/master/arduino/Smartgate.ino)
 2. Update the `devAddr`, `nwkSKey` & `appSKey` gotten from TTN dashboard
 
