@@ -8,7 +8,7 @@ SmartGate, an IOT project using [OpenALPR](http://www.openalpr.com) Plate Recogn
 
 ## Demo
 
-https://www.instagram.com/p/BIzTmEuAIR_/
+https://youtu.be/xnhBhMNJLAk
 
 ## Hardware
 * [The Things Uno](https://shop.thethingsnetwork.com/index.php/product/the-things-uno/)
