@@ -8,7 +8,7 @@ Smart Gate using Plate Recognition and LoRa,
 
 ## Demo
 
-https://www.instagram.com/p/BIzTmEuAIR_/
+https://youtu.be/xnhBhMNJLAk
 
 ## Hardware
 * [The Things Uno](https://shop.thethingsnetwork.com/index.php/product/the-things-uno/)
